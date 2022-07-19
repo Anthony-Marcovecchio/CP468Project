@@ -156,10 +156,3 @@ df_reduced = df[df['Likes'] > 100000]
 regr_model, test_df = train_regr_model(df_reduced)
 mse = assess_model(regr_model, test_df)
 display_data(pred_y, test_df, mse)
-
-
-# In[ ]:
-
-
-
-
