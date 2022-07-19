@@ -122,7 +122,7 @@ for date in response['Time Series (Daily)']:
 
 ## Append relative change in Tesla share price before/after a Tweet date
 
-# create dataframe
+# Create dataframe
 df = pd.read_csv('/Users/anthonymarcovecchio/Desktop/tweets.csv')
 
 # Iterate through all Tweets --> Add % relative change in Tesla share price column
@@ -191,10 +191,3 @@ for index, row in df.iterrows():
     print(f'TweetDate: {tweet_date}, TeslaChange: {tesla_change:.4f}')
     
 df.to_csv('/Users/anthonymarcovecchio/Desktop/TweetsTeslaPrices.csv', index=False)
-
-
-# In[ ]:
-
-
-
-
