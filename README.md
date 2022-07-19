@@ -1,2 +1,2 @@
-# CP468Project
+# CP468_Project
 Elon Musk's Twitter and Tesla Stock Price Analysis for coursework (CP468 - Artificial Intelligence)
