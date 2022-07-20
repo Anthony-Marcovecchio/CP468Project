@@ -11,13 +11,13 @@ All models considered the number of a Tweet's likes, retweets, replies, as well 
 - Used AlphaVantage Stock API to pull Tesla stock data
 
 ###### Results
-(1) Linear regression - All Musk Tweets starting 2015:
+Linear regression - All Musk Tweets starting 2015:
   - MSE of 13.37, coefficeint of determination of 0.03
-(2) Linear regression - Musk Tweets with > 100K likes:
+Linear regression - Musk Tweets with > 100K likes:
   - MSE of 5.23, coefficeint of determination of 0.46
-(3) Logistic regression - All Musk Tweets starting 2015:
+Logistic regression - All Musk Tweets starting 2015:
   - Accuracy score of 71%
- (4) Logistic regression - Tweets with > 100K likes:
+Logistic regression - Tweets with > 100K likes:
   - Accuracy score of 94%
 
 ###### Conclusion
