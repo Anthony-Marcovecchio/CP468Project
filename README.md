@@ -13,10 +13,13 @@ All models considered the number of a Tweet's likes, retweets, replies, as well 
 ###### Results
 Linear regression - All Musk Tweets starting 2015:
   - MSE of 13.37, coefficeint of determination of 0.03
+ 
 Linear regression - Musk Tweets with > 100K likes:
   - MSE of 5.23, coefficeint of determination of 0.46
+  
 Logistic regression - All Musk Tweets starting 2015:
   - Accuracy score of 71%
+  
 Logistic regression - Tweets with > 100K likes:
   - Accuracy score of 94%
 
