@@ -97,10 +97,3 @@ plt.ylabel('Actual label');
 plt.xlabel('Predicted label');
 all_sample_title = 'Accuracy Score: {0}'.format(score)
 plt.title(all_sample_title, size = 15)
-
-
-# In[ ]:
-
-
-
-
